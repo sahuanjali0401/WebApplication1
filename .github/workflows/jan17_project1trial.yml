@@ -51,6 +51,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'Project1Trial'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3FBEE20CB3F84812BE83307B10BF99AA }}
-          package: .
+          package: ./dist/Project1Trial
