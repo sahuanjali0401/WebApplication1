@@ -52,4 +52,4 @@ jobs:
         with:
           app-name: 'Project1Trial'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3FBEE20CB3F84812BE83307B10BF99AA }}
-          package: ./dist/Project1Trial
+          package: ./dist/angular-app1
